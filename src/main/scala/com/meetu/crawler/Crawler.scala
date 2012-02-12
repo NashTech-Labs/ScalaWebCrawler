@@ -29,7 +29,7 @@ class Crawler extends WebCrawler {
         val links = parsedData.getOutgoingUrls
         println("Text Length: " + text.length)
         println("Html Length: " + html.length)
-        println("Putgoing Links: " + links.size)
+        println("Outgoing Links: " + links.size)
     }
 
   }
