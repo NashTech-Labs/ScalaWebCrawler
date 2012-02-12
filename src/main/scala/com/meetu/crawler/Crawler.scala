@@ -1,10 +1,10 @@
 package com.meetu.crawler
 
-import edu.uci.ics.crawler4j.crawler.WebCrawler
 import java.util.regex.Pattern
-import edu.uci.ics.crawler4j.url.WebURL
-import edu.uci.ics.crawler4j.crawler.Page
+
+import edu.uci.ics.crawler4j.crawler.{ WebCrawler, Page }
 import edu.uci.ics.crawler4j.parser.HtmlParseData
+import edu.uci.ics.crawler4j.url.WebURL
 
 class Crawler extends WebCrawler {
 
